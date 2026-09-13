@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32162464/README.md)
 # Cybersecurity Lab Environment Setup
 
 **WEEK-1 PHASE-2 | Additional Task Virtual Machines: Windows 10 & Android 9**
@@ -204,6 +203,12 @@ The original Phase-1 document establishes the lab as an isolated environment for
   - **Link-2 Android Source Page Release:** https://sourceforge.net/projects/android-x86/files/Release%209.0/
 
 ---
+## 👤 Author
+
+**Muhammad Abrar**  
+Cybersecurity Professional B083B
+
+**LinkedIn:** https://www.linkedin.com/in/muhammadabrar3/
 
 ## 📌 Project Information
 
@@ -211,9 +216,7 @@ The original Phase-1 document establishes the lab as an isolated environment for
 - **Project:** Cybersecurity & Pentesting Lab Setup — Phase-2, Week-1
 - **Additional Task:** Windows 10 and Android 9 Virtual Machines
 - **Platform:** Oracle VM VirtualBox
-
-### 👤 Author
-
-**Muhammad Abrar**
-Cybersecurity Professional B083B
-LinkedIn: https://www.linkedin.com/in/muhammadabrar3/
+- **Week:** Week-1
+- **Phase:** Phase-2
+- **Mentor:** waqaskarimccie
+- **Academy:** https://networkwalks.com/
