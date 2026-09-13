@@ -64,7 +64,7 @@ Open the Windows 10 virtual machine in Oracle VM VirtualBox and make sure its ne
 - Default Gateway: `10.0.0.1`
 - DNS Server: `8.8.8.8`
 
-![Windows 10 network configuration](screenshots/01-windows10-network-config.png)
+<img width="1562" height="757" alt="01-windows10-network-config" src="https://github.com/user-attachments/assets/2b45629d-61ff-4ba4-89ff-fee6ebb98dde" />
 
 ### Step 2. Test Windows 10 → Kali Linux
 
@@ -76,7 +76,7 @@ ping 10.0.0.2
 
 Successful replies confirm that Windows 10 can communicate with the Kali Linux VM over the isolated NAT Network.
 
-![Windows 10 pinging Kali Linux](screenshots/02-windows10-ping-kali.png)
+<img width="1465" height="751" alt="02-windows10-ping-kali" src="https://github.com/user-attachments/assets/cc413eef-aa8b-498d-b2b9-cbc143f013a3" />
 
 The supplied Phase-2 task document records that Windows 10 (`10.0.0.10`) successfully pinged Kali Linux (`10.0.0.2`).
 
@@ -88,7 +88,7 @@ ping 8.8.8.8
 
 A successful response confirms Internet reachability through the VirtualBox NAT Network.
 
-![Windows 10 pinging the internet](screenshots/03-windows10-ping-internet.png)
+<img width="1346" height="746" alt="03-windows10-ping-internet" src="https://github.com/user-attachments/assets/4962a5a0-2df7-4b8d-a38b-da065fe27570" />
 
 ### Step 4. Test Kali Linux → Windows 10
 
@@ -100,7 +100,7 @@ ping 10.0.0.10
 
 If the ping fails while Windows 10 is running and correctly addressed, Windows Firewall may be blocking ICMP Echo Request traffic.
 
-![Kali Linux ping to Windows 10 failing](screenshots/04-kali-ping-windows10-fail.png)
+<img width="728" height="657" alt="04-kali-ping-windows10-fail" src="https://github.com/user-attachments/assets/5e03f61b-fd61-4fc9-ad99-fe3f01f844fe" />
 
 ### Step 5. Allow ICMPv4 on Windows 10 Firewall
 
@@ -112,7 +112,7 @@ netsh advfirewall firewall add rule name="Allow ICMPv4 Echo Request" protocol=ic
 
 After applying the rule, repeat the Kali-to-Windows ping test. The supplied task document reports successful ping from Kali `10.0.0.2` to Windows 10 `10.0.0.10` and successful Internet testing to `8.8.8.8`.
 
-![Kali Linux ping to Windows 10 succeeding](screenshots/05-kali-ping-windows10-success.png)
+<img width="1782" height="672" alt="05-kali-ping-windows10-success" src="https://github.com/user-attachments/assets/6aabf673-af59-4b10-91a0-cb8b4566e139" />
 
 ### Step 6. Configure Android 9 VM Network
 
@@ -123,7 +123,7 @@ Open the Android 9 virtual machine in Oracle VM VirtualBox and attach its networ
 - Gateway: `10.0.0.1`
 - DNS: `8.8.8.8`
 
-![Android 9 network configuration](screenshots/06-android9-network-config.png)
+<img width="777" height="832" alt="06-android9-network-config" src="https://github.com/user-attachments/assets/4913cc5d-f094-49c7-93e8-abba4c5333f0" />
 
 ### Step 7. Test Kali Linux → Android 9
 
@@ -135,7 +135,7 @@ ping 10.0.0.9
 
 The supplied Phase-2 task document records successful communication from Kali Linux `10.0.0.2` to Android 9 `10.0.0.9` and successful Internet testing to `8.8.8.8`.
 
-![Kali Linux ping to Android 9](screenshots/07-kali-ping-android9.png)
+<img width="1807" height="692" alt="07-kali-ping-android9" src="https://github.com/user-attachments/assets/790453db-d7a4-4fb9-9502-3b407bdecf33" />
 
 ---
 
